@@ -10851,7 +10851,7 @@ NS Package M08A</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="POWER" prefix="PWR">
+<deviceset name="POWER" prefix="U">
 <gates>
 <gate name="G$1" symbol="POWER" x="0" y="0"/>
 </gates>
@@ -10877,39 +10877,24 @@ NS Package M08A</description>
 <description>Generated from &lt;b&gt;808_lt.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs.ulp</description>
 <packages>
-<package name="MSS42_SW_SLIDE">
-<pad name="PG$2" x="-2.5" y="0" drill="1.3" diameter="3"/>
-<pad name="PG$1" x="2.5" y="0" drill="1.3" diameter="3"/>
-<pad name="P$6" x="-2.413" y="21.951" drill="1.3" diameter="2.54"/>
+<package name="808_LT_MSS42_SW_SLIDE">
 <wire x1="-3.5" y1="0" x2="-3" y2="0" width="0.127" layer="21"/>
 <wire x1="-3" y1="0" x2="-3" y2="-7.1" width="0.127" layer="21"/>
 <wire x1="-3" y1="-7.1" x2="3" y2="-7.1" width="0.127" layer="21"/>
 <wire x1="3" y1="-7.1" x2="3" y2="0" width="0.127" layer="21"/>
-<wire x1="-8.318" y1="0" x2="-8.318" y2="11.27" width="0.127" layer="21"/>
-<wire x1="-8.318" y1="11.27" x2="8.064" y2="11.27" width="0.127" layer="21"/>
-<wire x1="8.064" y1="11.27" x2="8.064" y2="0" width="0.127" layer="21"/>
-<wire x1="8.064" y1="0" x2="-8.318" y2="0" width="0.127" layer="21"/>
-<wire x1="-8.318" y1="0" x2="8.064" y2="11.27" width="0.127" layer="21"/>
-<wire x1="-8.318" y1="11.27" x2="8.064" y2="0" width="0.127" layer="21"/>
+<wire x1="-11.1125" y1="0" x2="-11.1125" y2="11.27" width="0.127" layer="21"/>
+<wire x1="-11.1125" y1="11.27" x2="11.1125" y2="11.27" width="0.127" layer="21"/>
+<wire x1="11.1125" y1="11.27" x2="11.1125" y2="0" width="0.127" layer="21"/>
+<wire x1="11.1125" y1="0" x2="-11.1125" y2="0" width="0.127" layer="21"/>
+<wire x1="-11.1125" y1="0" x2="11.1125" y2="11.27" width="0.127" layer="21"/>
+<wire x1="-11.1125" y1="11.27" x2="11.1125" y2="0" width="0.127" layer="21"/>
 <wire x1="-1" y1="-7.25" x2="-1.25" y2="-12" width="0.127" layer="21"/>
 <wire x1="-1.25" y1="-12" x2="1.25" y2="-12" width="0.127" layer="21"/>
 <wire x1="1.25" y1="-12" x2="1" y2="-7.25" width="0.127" layer="21"/>
 <wire x1="1.25" y1="-12" x2="-1.25" y2="-12" width="0.127" layer="21" curve="-180"/>
-<text x="-5.08" y="-2.54" size="1.27" layer="21" rot="R270">&gt;NAME</text>
-<pad name="P$1" x="-7.239" y="14.351" drill="1.3" diameter="2.54"/>
-<pad name="P$2" x="-7.239" y="18.151" drill="1.3" diameter="2.54"/>
-<pad name="P$3" x="-7.239" y="21.951" drill="1.3" diameter="2.54"/>
 <wire x1="-7.239" y1="20.447" x2="-7.239" y2="19.685" width="0.127" layer="21"/>
-<pad name="P$4" x="-2.413" y="14.351" drill="1.3" diameter="2.54"/>
-<pad name="P$5" x="-2.413" y="18.151" drill="1.3" diameter="2.54"/>
 <wire x1="-2.413" y1="20.447" x2="-2.413" y2="19.685" width="0.127" layer="21"/>
-<pad name="P$7" x="2.413" y="14.351" drill="1.3" diameter="2.54"/>
-<pad name="P$8" x="2.413" y="18.151" drill="1.3" diameter="2.54"/>
-<pad name="P$9" x="2.413" y="21.951" drill="1.3" diameter="2.54"/>
 <wire x1="2.413" y1="20.447" x2="2.413" y2="19.685" width="0.127" layer="21"/>
-<pad name="P$10" x="7.239" y="14.351" drill="1.3" diameter="2.54"/>
-<pad name="P$11" x="7.239" y="18.151" drill="1.3" diameter="2.54"/>
-<pad name="P$12" x="7.239" y="21.951" drill="1.3" diameter="2.54"/>
 <wire x1="7.239" y1="20.447" x2="7.239" y2="19.685" width="0.127" layer="21"/>
 <wire x1="-7.239" y1="16.637" x2="-7.239" y2="15.875" width="0.127" layer="21"/>
 <wire x1="-2.413" y1="16.637" x2="-2.413" y2="15.875" width="0.127" layer="21"/>
@@ -10919,10 +10904,25 @@ by exp-lbrs.ulp</description>
 <wire x1="-2.413" y1="12.827" x2="-2.413" y2="12.065" width="0.127" layer="21"/>
 <wire x1="2.286" y1="12.827" x2="2.286" y2="12.065" width="0.127" layer="21"/>
 <wire x1="6.985" y1="12.827" x2="6.985" y2="12.065" width="0.127" layer="21"/>
+<pad name="P$1" x="-7.239" y="14.351" drill="1.3716" diameter="2.54"/>
+<pad name="P$2" x="-7.239" y="18.151" drill="1.3716" diameter="2.54"/>
+<pad name="P$3" x="-7.239" y="21.951" drill="1.3716" diameter="2.54"/>
+<pad name="P$4" x="-2.413" y="14.351" drill="1.3716" diameter="2.54"/>
+<pad name="P$5" x="-2.413" y="18.151" drill="1.3716" diameter="2.54"/>
+<pad name="P$6" x="-2.413" y="21.951" drill="1.3716" diameter="2.54"/>
+<pad name="P$7" x="2.413" y="14.351" drill="1.3716" diameter="2.54"/>
+<pad name="P$8" x="2.413" y="18.151" drill="1.3716" diameter="2.54"/>
+<pad name="P$9" x="2.413" y="21.951" drill="1.3716" diameter="2.54"/>
+<pad name="P$10" x="7.239" y="14.351" drill="1.3716" diameter="2.54"/>
+<pad name="P$11" x="7.239" y="18.151" drill="1.3716" diameter="2.54"/>
+<pad name="P$12" x="7.239" y="21.951" drill="1.3716" diameter="2.54"/>
+<pad name="PG$1" x="2.5" y="0" drill="1.3716" diameter="3"/>
+<pad name="PG$2" x="-2.5" y="0" drill="1.3716" diameter="3"/>
+<text x="-5.08" y="-2.54" size="1.27" layer="21" rot="R270">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
-<symbol name="SIS">
+<symbol name="808_LT_SIS">
 <wire x1="-3.81" y1="1.905" x2="-3.81" y2="0" width="0.254" layer="94"/>
 <wire x1="-3.81" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
 <wire x1="-3.81" y1="0" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
@@ -10945,16 +10945,16 @@ by exp-lbrs.ulp</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MSS42_SW_4PDT">
+<deviceset name="808_LT_MSS42_SW_4PDT">
 <description>MSS42 4PDT switch</description>
 <gates>
-<gate name="G$1" symbol="SIS" x="-22.86" y="0"/>
-<gate name="G$2" symbol="SIS" x="-7.62" y="0"/>
-<gate name="G$3" symbol="SIS" x="7.62" y="0"/>
-<gate name="G$4" symbol="SIS" x="22.86" y="0"/>
+<gate name="G$1" symbol="808_LT_SIS" x="-22.86" y="0"/>
+<gate name="G$2" symbol="808_LT_SIS" x="-7.62" y="0"/>
+<gate name="G$3" symbol="808_LT_SIS" x="7.62" y="0"/>
+<gate name="G$4" symbol="808_LT_SIS" x="22.86" y="0"/>
 </gates>
 <devices>
-<device name="" package="MSS42_SW_SLIDE">
+<device name="" package="808_LT_MSS42_SW_SLIDE">
 <connects>
 <connect gate="G$1" pin="O" pad="P$1"/>
 <connect gate="G$1" pin="P" pad="P$2"/>
@@ -11262,7 +11262,7 @@ drill 1.0 mm</description>
 <part name="R226" library="TR808clone" deviceset="R-EU_" device="0207/7" value="22K"/>
 <part name="D56" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
 <part name="V54" library="supply1" deviceset="GND" device=""/>
-<part name="SW8" library="808_lt" deviceset="MSS42_SW_4PDT" device=""/>
+<part name="SW8" library="808_lt" deviceset="808_LT_MSS42_SW_4PDT" device=""/>
 <part name="Q1" library="transistor-npn" deviceset="2N3904" device=""/>
 <part name="Q2" library="transistor-pnp" deviceset="2N3906" device=""/>
 <part name="Q3" library="transistor-npn" deviceset="2N3904" device=""/>

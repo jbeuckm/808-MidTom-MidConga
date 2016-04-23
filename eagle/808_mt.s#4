@@ -10877,39 +10877,24 @@ NS Package M08A</description>
 <description>Generated from &lt;b&gt;808_lt.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs.ulp</description>
 <packages>
-<package name="MSS42_SW_SLIDE">
-<pad name="PG$2" x="-2.5" y="0" drill="1.3" diameter="3"/>
-<pad name="PG$1" x="2.5" y="0" drill="1.3" diameter="3"/>
-<pad name="P$6" x="-2.413" y="21.951" drill="1.3" diameter="2.54"/>
+<package name="808_LT_MSS42_SW_SLIDE">
 <wire x1="-3.5" y1="0" x2="-3" y2="0" width="0.127" layer="21"/>
 <wire x1="-3" y1="0" x2="-3" y2="-7.1" width="0.127" layer="21"/>
 <wire x1="-3" y1="-7.1" x2="3" y2="-7.1" width="0.127" layer="21"/>
 <wire x1="3" y1="-7.1" x2="3" y2="0" width="0.127" layer="21"/>
-<wire x1="-8.318" y1="0" x2="-8.318" y2="11.27" width="0.127" layer="21"/>
-<wire x1="-8.318" y1="11.27" x2="8.064" y2="11.27" width="0.127" layer="21"/>
-<wire x1="8.064" y1="11.27" x2="8.064" y2="0" width="0.127" layer="21"/>
-<wire x1="8.064" y1="0" x2="-8.318" y2="0" width="0.127" layer="21"/>
-<wire x1="-8.318" y1="0" x2="8.064" y2="11.27" width="0.127" layer="21"/>
-<wire x1="-8.318" y1="11.27" x2="8.064" y2="0" width="0.127" layer="21"/>
+<wire x1="-11.1125" y1="0" x2="-11.1125" y2="11.27" width="0.127" layer="21"/>
+<wire x1="-11.1125" y1="11.27" x2="11.1125" y2="11.27" width="0.127" layer="21"/>
+<wire x1="11.1125" y1="11.27" x2="11.1125" y2="0" width="0.127" layer="21"/>
+<wire x1="11.1125" y1="0" x2="-11.1125" y2="0" width="0.127" layer="21"/>
+<wire x1="-11.1125" y1="0" x2="11.1125" y2="11.27" width="0.127" layer="21"/>
+<wire x1="-11.1125" y1="11.27" x2="11.1125" y2="0" width="0.127" layer="21"/>
 <wire x1="-1" y1="-7.25" x2="-1.25" y2="-12" width="0.127" layer="21"/>
 <wire x1="-1.25" y1="-12" x2="1.25" y2="-12" width="0.127" layer="21"/>
 <wire x1="1.25" y1="-12" x2="1" y2="-7.25" width="0.127" layer="21"/>
 <wire x1="1.25" y1="-12" x2="-1.25" y2="-12" width="0.127" layer="21" curve="-180"/>
-<text x="-5.08" y="-2.54" size="1.27" layer="21" rot="R270">&gt;NAME</text>
-<pad name="P$1" x="-7.239" y="14.351" drill="1.3" diameter="2.54"/>
-<pad name="P$2" x="-7.239" y="18.151" drill="1.3" diameter="2.54"/>
-<pad name="P$3" x="-7.239" y="21.951" drill="1.3" diameter="2.54"/>
 <wire x1="-7.239" y1="20.447" x2="-7.239" y2="19.685" width="0.127" layer="21"/>
-<pad name="P$4" x="-2.413" y="14.351" drill="1.3" diameter="2.54"/>
-<pad name="P$5" x="-2.413" y="18.151" drill="1.3" diameter="2.54"/>
 <wire x1="-2.413" y1="20.447" x2="-2.413" y2="19.685" width="0.127" layer="21"/>
-<pad name="P$7" x="2.413" y="14.351" drill="1.3" diameter="2.54"/>
-<pad name="P$8" x="2.413" y="18.151" drill="1.3" diameter="2.54"/>
-<pad name="P$9" x="2.413" y="21.951" drill="1.3" diameter="2.54"/>
 <wire x1="2.413" y1="20.447" x2="2.413" y2="19.685" width="0.127" layer="21"/>
-<pad name="P$10" x="7.239" y="14.351" drill="1.3" diameter="2.54"/>
-<pad name="P$11" x="7.239" y="18.151" drill="1.3" diameter="2.54"/>
-<pad name="P$12" x="7.239" y="21.951" drill="1.3" diameter="2.54"/>
 <wire x1="7.239" y1="20.447" x2="7.239" y2="19.685" width="0.127" layer="21"/>
 <wire x1="-7.239" y1="16.637" x2="-7.239" y2="15.875" width="0.127" layer="21"/>
 <wire x1="-2.413" y1="16.637" x2="-2.413" y2="15.875" width="0.127" layer="21"/>
@@ -10919,10 +10904,25 @@ by exp-lbrs.ulp</description>
 <wire x1="-2.413" y1="12.827" x2="-2.413" y2="12.065" width="0.127" layer="21"/>
 <wire x1="2.286" y1="12.827" x2="2.286" y2="12.065" width="0.127" layer="21"/>
 <wire x1="6.985" y1="12.827" x2="6.985" y2="12.065" width="0.127" layer="21"/>
+<pad name="P$1" x="-7.239" y="14.351" drill="1.3716" diameter="2.54"/>
+<pad name="P$2" x="-7.239" y="18.151" drill="1.3716" diameter="2.54"/>
+<pad name="P$3" x="-7.239" y="21.951" drill="1.3716" diameter="2.54"/>
+<pad name="P$4" x="-2.413" y="14.351" drill="1.3716" diameter="2.54"/>
+<pad name="P$5" x="-2.413" y="18.151" drill="1.3716" diameter="2.54"/>
+<pad name="P$6" x="-2.413" y="21.951" drill="1.3716" diameter="2.54"/>
+<pad name="P$7" x="2.413" y="14.351" drill="1.3716" diameter="2.54"/>
+<pad name="P$8" x="2.413" y="18.151" drill="1.3716" diameter="2.54"/>
+<pad name="P$9" x="2.413" y="21.951" drill="1.3716" diameter="2.54"/>
+<pad name="P$10" x="7.239" y="14.351" drill="1.3716" diameter="2.54"/>
+<pad name="P$11" x="7.239" y="18.151" drill="1.3716" diameter="2.54"/>
+<pad name="P$12" x="7.239" y="21.951" drill="1.3716" diameter="2.54"/>
+<pad name="PG$1" x="2.5" y="0" drill="1.3716" diameter="3"/>
+<pad name="PG$2" x="-2.5" y="0" drill="1.3716" diameter="3"/>
+<text x="-5.08" y="-2.54" size="1.27" layer="21" rot="R270">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
-<symbol name="SIS">
+<symbol name="808_LT_SIS">
 <wire x1="-3.81" y1="1.905" x2="-3.81" y2="0" width="0.254" layer="94"/>
 <wire x1="-3.81" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
 <wire x1="-3.81" y1="0" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
@@ -10945,16 +10945,16 @@ by exp-lbrs.ulp</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MSS42_SW_4PDT">
+<deviceset name="808_LT_MSS42_SW_4PDT">
 <description>MSS42 4PDT switch</description>
 <gates>
-<gate name="G$1" symbol="SIS" x="-22.86" y="0"/>
-<gate name="G$2" symbol="SIS" x="-7.62" y="0"/>
-<gate name="G$3" symbol="SIS" x="7.62" y="0"/>
-<gate name="G$4" symbol="SIS" x="22.86" y="0"/>
+<gate name="G$1" symbol="808_LT_SIS" x="-22.86" y="0"/>
+<gate name="G$2" symbol="808_LT_SIS" x="-7.62" y="0"/>
+<gate name="G$3" symbol="808_LT_SIS" x="7.62" y="0"/>
+<gate name="G$4" symbol="808_LT_SIS" x="22.86" y="0"/>
 </gates>
 <devices>
-<device name="" package="MSS42_SW_SLIDE">
+<device name="" package="808_LT_MSS42_SW_SLIDE">
 <connects>
 <connect gate="G$1" pin="O" pad="P$1"/>
 <connect gate="G$1" pin="P" pad="P$2"/>
@@ -11215,20 +11215,20 @@ drill 1.0 mm</description>
 <part name="R215" library="TR808clone" deviceset="R-EU_" device="0207/7" value="4K7"/>
 <part name="V145" library="supply1" deviceset="GND" device=""/>
 <part name="R219" library="TR808clone" deviceset="R-EU_" device="0207/7" value="4K7"/>
-<part name="C73" library="TR808clone" deviceset="C-EU" device="4MM_PITCH" value="6.8n"/>
-<part name="R225" library="TR808clone" deviceset="R-EU_" device="0207/7" value="4K7"/>
+<part name="C73" library="TR808clone" deviceset="C-EU" device="4MM_PITCH" value="2n7"/>
+<part name="R225" library="TR808clone" deviceset="R-EU_" device="0207/7" value="6k8"/>
 <part name="V147" library="supply1" deviceset="GND" device=""/>
 <part name="R228" library="TR808clone" deviceset="R-EU_" device="0207/7" value="820K"/>
-<part name="C76" library="TR808clone" deviceset="C-EU" device="050-024X044" value="56n"/>
+<part name="C76" library="TR808clone" deviceset="C-EU" device="050-024X044" value="27n"/>
 <part name="C78" library="TR808clone" deviceset="C-EU" device="3.5MM_PITCH" value="12n"/>
-<part name="C77" library="TR808clone" deviceset="C-EU" device="050-024X044" value="47n"/>
+<part name="C77" library="TR808clone" deviceset="C-EU" device="050-024X044" value="27n"/>
 <part name="R229" library="TR808clone" deviceset="R-EU_" device="0207/7" value="33K"/>
 <part name="R227" library="TR808clone" deviceset="R-EU_" device="0207/7" value="33K"/>
 <part name="R231" library="TR808clone" deviceset="R-EU_" device="0207/7" value="1K"/>
 <part name="V148" library="supply1" deviceset="GND" device=""/>
 <part name="V149" library="supply1" deviceset="GND" device=""/>
 <part name="R233" library="TR808clone" deviceset="R-EU_" device="0207/7" value="100K"/>
-<part name="C81" library="TR808clone" deviceset="C-EU" device="050-024X044" value="47n"/>
+<part name="C81" library="TR808clone" deviceset="C-EU" device="050-024X044" value="39n"/>
 <part name="R234" library="TR808clone" deviceset="R-EU_" device="0207/7" value="47K"/>
 <part name="V150" library="supply1" deviceset="GND" device=""/>
 <part name="R232" library="TR808clone" deviceset="R-EU_" device="0207/7" value="100K"/>
@@ -11236,9 +11236,9 @@ drill 1.0 mm</description>
 <part name="C83" library="TR808clone" deviceset="C-EU" device="3.5MM_PITCH" value="1n"/>
 <part name="C82" library="TR808clone" deviceset="CPOL-EU" device="E2-5" value="33/6.3"/>
 <part name="R238" library="TR808clone" deviceset="R-EU_" device="0207/7" value="1K"/>
-<part name="C75" library="TR808clone" deviceset="C-EU" device="4MM_PITCH" value="18n"/>
+<part name="C75" library="TR808clone" deviceset="C-EU" device="4MM_PITCH" value="15n"/>
 <part name="R223" library="TR808clone" deviceset="R-EU_" device="0207/7" value="22K"/>
-<part name="C74" library="TR808clone" deviceset="C-EU" device="050-024X044" value="47n"/>
+<part name="C74" library="TR808clone" deviceset="C-EU" device="050-024X044" value="33n"/>
 <part name="R221" library="TR808clone" deviceset="R-EU_" device="0207/7" value="4K7"/>
 <part name="V151" library="supply1" deviceset="GND" device=""/>
 <part name="V152" library="supply1" deviceset="GND" device=""/>
@@ -11249,10 +11249,10 @@ drill 1.0 mm</description>
 <part name="R216" library="TR808clone" deviceset="R-EU_" device="0207/7" value="15K"/>
 <part name="R218" library="TR808clone" deviceset="R-EU_" device="0207/7" value="2M2"/>
 <part name="D55" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="C72" library="TR808clone" deviceset="C-EU" device="050-024X044" value="39n"/>
+<part name="C72" library="TR808clone" deviceset="C-EU" device="050-024X044" value="33n"/>
 <part name="V155" library="supply1" deviceset="GND" device=""/>
 <part name="V156" library="supply1" deviceset="GND" device=""/>
-<part name="R224" library="TR808clone" deviceset="R-EU_" device="0207/7" value="1K5"/>
+<part name="R224" library="TR808clone" deviceset="R-EU_" device="0207/7" value="2k2"/>
 <part name="V159" library="supply1" deviceset="GND" device=""/>
 <part name="V160" library="supply1" deviceset="GND" device=""/>
 <part name="R222" library="TR808clone" deviceset="R-EU_" device="0207/7" value="22K"/>
@@ -11262,7 +11262,7 @@ drill 1.0 mm</description>
 <part name="R226" library="TR808clone" deviceset="R-EU_" device="0207/7" value="22K"/>
 <part name="D56" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
 <part name="V54" library="supply1" deviceset="GND" device=""/>
-<part name="SW8" library="808_lt" deviceset="MSS42_SW_4PDT" device=""/>
+<part name="SW8" library="808_lt" deviceset="808_LT_MSS42_SW_4PDT" device=""/>
 <part name="Q1" library="transistor-npn" deviceset="2N3904" device=""/>
 <part name="Q2" library="transistor-pnp" deviceset="2N3906" device=""/>
 <part name="Q3" library="transistor-npn" deviceset="2N3904" device=""/>
@@ -11281,7 +11281,7 @@ drill 1.0 mm</description>
 <part name="P-3" library="supply1" deviceset="-15V" device=""/>
 <part name="PINK_NOISE" library="erthenvar" deviceset="AUDIO-JACK" device=""/>
 <part name="V3" library="supply1" deviceset="GND" device=""/>
-<part name="LEVEL" library="pot" deviceset="3RP/1610N" device="" value="100k"/>
+<part name="LEVEL" library="pot" deviceset="3RP/1610N" device="" value="100kA"/>
 <part name="TUNE" library="pot" deviceset="3RP/1610N" device="" value="10k"/>
 <part name="PINK_NORM" library="con-molex" deviceset="22-23-2021" device=""/>
 <part name="OUT_NORM" library="con-molex" deviceset="22-23-2021" device=""/>
@@ -11322,8 +11322,8 @@ drill 1.0 mm</description>
 <instance part="C77" gate="G$1" x="63.5" y="58.42" rot="R90"/>
 <instance part="R229" gate="G$1" x="66.04" y="50.8" rot="R180"/>
 <instance part="R227" gate="G$1" x="81.28" y="58.42" rot="R180"/>
-<instance part="R231" gate="G$1" x="48.26" y="78.74"/>
-<instance part="V148" gate="1" x="17.78" y="66.04"/>
+<instance part="R231" gate="G$1" x="48.26" y="91.44"/>
+<instance part="V148" gate="1" x="17.78" y="78.74"/>
 <instance part="V149" gate="1" x="76.2" y="40.64"/>
 <instance part="R233" gate="G$1" x="96.52" y="50.8" rot="R180"/>
 <instance part="C81" gate="G$1" x="106.68" y="50.8" rot="R90"/>
@@ -11365,8 +11365,8 @@ drill 1.0 mm</description>
 <instance part="V159" gate="1" x="30.48" y="20.32"/>
 <instance part="V160" gate="1" x="121.92" y="7.62"/>
 <instance part="R222" gate="G$1" x="96.52" y="15.24" rot="R180"/>
-<instance part="D81" gate="G$1" x="50.8" y="66.04"/>
-<instance part="D80" gate="G$1" x="50.8" y="71.12" rot="R180"/>
+<instance part="D81" gate="G$1" x="50.8" y="78.74"/>
+<instance part="D80" gate="G$1" x="50.8" y="83.82" rot="R180"/>
 <instance part="R230" gate="G$1" x="91.44" y="76.2" rot="R270"/>
 <instance part="R226" gate="G$1" x="38.1" y="40.64" smashed="yes" rot="R180">
 <attribute name="NAME" x="41.91" y="46.7614" size="1.778" layer="95" rot="R180"/>
@@ -11399,7 +11399,7 @@ drill 1.0 mm</description>
 <instance part="PINK_NOISE" gate="G$1" x="-17.78" y="-2.54" rot="MR180"/>
 <instance part="V3" gate="1" x="-10.16" y="-7.62"/>
 <instance part="LEVEL" gate="G$1" x="119.38" y="86.36" rot="R270"/>
-<instance part="TUNE" gate="G$1" x="30.48" y="68.58" rot="R90"/>
+<instance part="TUNE" gate="G$1" x="30.48" y="81.28" rot="R90"/>
 <instance part="SW8" gate="G$4" x="35.56" y="30.48" rot="MR270"/>
 <instance part="PINK_NORM" gate="-1" x="-12.7" y="10.16" rot="R180"/>
 <instance part="PINK_NORM" gate="-2" x="-12.7" y="12.7" rot="R180"/>
@@ -11407,10 +11407,11 @@ drill 1.0 mm</description>
 <instance part="OUT_NORM" gate="-2" x="142.24" y="55.88"/>
 <instance part="V4" gate="1" x="-2.54" y="7.62"/>
 <instance part="V5" gate="1" x="137.16" y="50.8"/>
-<instance part="R1" gate="G$1" x="38.1" y="73.66" rot="R90"/>
-<instance part="R2" gate="G$1" x="22.86" y="73.66" rot="R90"/>
+<instance part="R1" gate="G$1" x="38.1" y="86.36" rot="R90"/>
+<instance part="R2" gate="G$1" x="22.86" y="86.36" rot="R90"/>
 <instance part="TRIGGER" gate="1" x="-10.16" y="48.26" rot="R90"/>
 <instance part="ACCENT" gate="1" x="2.54" y="48.26" rot="R270"/>
+<instance part="SW8" gate="G$2" x="33.02" y="63.5" rot="MR270"/>
 </instances>
 <busses>
 </busses>
@@ -11468,17 +11469,17 @@ drill 1.0 mm</description>
 </net>
 <net name="N$251" class="0">
 <segment>
-<wire x1="53.34" y1="58.42" x2="53.34" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="78.74" x2="53.34" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="71.12" x2="53.34" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="78.74" x2="53.34" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="58.42" x2="53.34" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="91.44" x2="53.34" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="83.82" x2="53.34" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="91.44" x2="53.34" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="81.28" x2="73.66" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="81.28" x2="58.42" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="81.28" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="81.28" x2="58.42" y2="91.44" width="0.1524" layer="91"/>
 <junction x="53.34" y="58.42"/>
+<junction x="53.34" y="91.44"/>
 <junction x="53.34" y="78.74"/>
-<junction x="53.34" y="66.04"/>
-<junction x="53.34" y="71.12"/>
+<junction x="53.34" y="83.82"/>
 <pinref part="C76" gate="G$1" pin="2"/>
 <pinref part="C78" gate="G$1" pin="1"/>
 <pinref part="R231" gate="G$1" pin="2"/>
@@ -11518,30 +11519,30 @@ drill 1.0 mm</description>
 </net>
 <net name="N$254" class="0">
 <segment>
-<wire x1="48.26" y1="71.12" x2="48.26" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="83.82" x2="48.26" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="D81" gate="G$1" pin="A"/>
 <pinref part="D80" gate="G$1" pin="C"/>
 <pinref part="TUNE" gate="G$1" pin="A"/>
-<wire x1="48.26" y1="68.58" x2="48.26" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="68.58" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
-<junction x="48.26" y="68.58"/>
+<wire x1="48.26" y1="81.28" x2="48.26" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="81.28" x2="38.1" y2="81.28" width="0.1524" layer="91"/>
+<junction x="48.26" y="81.28"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="68.58" x2="48.26" y2="68.58" width="0.1524" layer="91"/>
-<junction x="38.1" y="68.58"/>
+<wire x1="38.1" y1="81.28" x2="48.26" y2="81.28" width="0.1524" layer="91"/>
+<junction x="38.1" y="81.28"/>
 </segment>
 </net>
 <net name="N$255" class="0">
 <segment>
-<wire x1="43.18" y1="78.74" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="78.74" x2="30.48" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="78.74" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="91.44" x2="38.1" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="91.44" x2="30.48" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="91.44" x2="30.48" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="R231" gate="G$1" pin="1"/>
 <pinref part="TUNE" gate="G$1" pin="S"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<junction x="38.1" y="78.74"/>
+<junction x="38.1" y="91.44"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="78.74" x2="22.86" y2="78.74" width="0.1524" layer="91"/>
-<junction x="30.48" y="78.74"/>
+<wire x1="30.48" y1="91.44" x2="22.86" y2="91.44" width="0.1524" layer="91"/>
+<junction x="30.48" y="91.44"/>
 </segment>
 </net>
 <net name="N$256" class="0">
@@ -11789,12 +11790,12 @@ drill 1.0 mm</description>
 <wire x1="58.42" y1="-10.16" x2="58.42" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="25.4" y1="68.58" x2="22.86" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="81.28" x2="22.86" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="V148" gate="1" pin="GND"/>
 <pinref part="TUNE" gate="G$1" pin="E"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="68.58" x2="17.78" y2="68.58" width="0.1524" layer="91"/>
-<junction x="22.86" y="68.58"/>
+<wire x1="22.86" y1="81.28" x2="17.78" y2="81.28" width="0.1524" layer="91"/>
+<junction x="22.86" y="81.28"/>
 </segment>
 <segment>
 <pinref part="R215" gate="G$1" pin="1"/>

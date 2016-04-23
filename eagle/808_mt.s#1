@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11291,12 +11291,12 @@ drill 1.0 mm</description>
 <part name="R2" library="TR808clone" deviceset="R-EU_" device="0207/7" value="263R"/>
 <part name="TRIGGER" library="solpad" deviceset="LSP10" device=""/>
 <part name="ACCENT" library="solpad" deviceset="LSP10" device=""/>
-<part name="C1" library="TR808clone" deviceset="C-EU" device="050-024X044" value="8n2"/>
+<part name="OMIT" library="TR808clone" deviceset="C-EU" device="050-024X044" value="OMIT"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="50.8" y="96.52" size="3.81" layer="94">LOW TOM LOW CONGA</text>
+<text x="50.8" y="96.52" size="3.81" layer="94">MID TOM MID CONGA</text>
 </plain>
 <instances>
 <instance part="R214" gate="G$1" x="10.16" y="35.56" rot="R90"/>
@@ -11413,7 +11413,7 @@ drill 1.0 mm</description>
 <instance part="TRIGGER" gate="1" x="-10.16" y="48.26" rot="R90"/>
 <instance part="ACCENT" gate="1" x="2.54" y="48.26" rot="R270"/>
 <instance part="SW8" gate="G$2" x="27.94" y="63.5" rot="MR270"/>
-<instance part="C1" gate="G$1" x="38.1" y="60.96" rot="R90"/>
+<instance part="OMIT" gate="G$1" x="38.1" y="60.96" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -11506,7 +11506,7 @@ drill 1.0 mm</description>
 <pinref part="R228" gate="G$1" pin="2"/>
 <pinref part="C76" gate="G$1" pin="1"/>
 <pinref part="IC2" gate="B" pin="-IN"/>
-<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="OMIT" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="60.96" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
 <junction x="45.72" y="60.96"/>
 </segment>
@@ -11964,7 +11964,7 @@ drill 1.0 mm</description>
 <net name="N$7" class="0">
 <segment>
 <pinref part="SW8" gate="G$2" pin="P"/>
-<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="OMIT" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="60.96" x2="35.56" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
