@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11215,20 +11215,20 @@ drill 1.0 mm</description>
 <part name="R215" library="TR808clone" deviceset="R-EU_" device="0207/7" value="4K7"/>
 <part name="V145" library="supply1" deviceset="GND" device=""/>
 <part name="R219" library="TR808clone" deviceset="R-EU_" device="0207/7" value="4K7"/>
-<part name="C73" library="TR808clone" deviceset="C-EU" device="4MM_PITCH" value="2n7"/>
-<part name="R225" library="TR808clone" deviceset="R-EU_" device="0207/7" value="5k6"/>
+<part name="C73" library="TR808clone" deviceset="C-EU" device="4MM_PITCH" value="6n8"/>
+<part name="R225" library="TR808clone" deviceset="R-EU_" device="0207/7" value="4k7"/>
 <part name="V147" library="supply1" deviceset="GND" device=""/>
 <part name="R228" library="TR808clone" deviceset="R-EU_" device="0207/7" value="820K"/>
-<part name="C76" library="TR808clone" deviceset="C-EU" device="050-024X044" value="27n"/>
-<part name="C78" library="TR808clone" deviceset="C-EU" device="3.5MM_PITCH" value="5n6"/>
-<part name="C77" library="TR808clone" deviceset="C-EU" device="050-024X044" value="22n"/>
+<part name="C76" library="TR808clone" deviceset="C-EU" device="050-024X044" value="56n"/>
+<part name="C78" library="TR808clone" deviceset="C-EU" device="3.5MM_PITCH" value="12n"/>
+<part name="C77" library="TR808clone" deviceset="C-EU" device="050-024X044" value="47n"/>
 <part name="R229" library="TR808clone" deviceset="R-EU_" device="0207/7" value="33K"/>
 <part name="R227" library="TR808clone" deviceset="R-EU_" device="0207/7" value="33K"/>
 <part name="R231" library="TR808clone" deviceset="R-EU_" device="0207/7" value="1K"/>
 <part name="V148" library="supply1" deviceset="GND" device=""/>
 <part name="V149" library="supply1" deviceset="GND" device=""/>
 <part name="R233" library="TR808clone" deviceset="R-EU_" device="0207/7" value="100K"/>
-<part name="C81" library="TR808clone" deviceset="C-EU" device="050-024X044" value="33n"/>
+<part name="C81" library="TR808clone" deviceset="C-EU" device="050-024X044" value="47n"/>
 <part name="R234" library="TR808clone" deviceset="R-EU_" device="0207/7" value="47K"/>
 <part name="V150" library="supply1" deviceset="GND" device=""/>
 <part name="R232" library="TR808clone" deviceset="R-EU_" device="0207/7" value="100K"/>
@@ -11236,9 +11236,9 @@ drill 1.0 mm</description>
 <part name="C83" library="TR808clone" deviceset="C-EU" device="3.5MM_PITCH" value="1n"/>
 <part name="C82" library="TR808clone" deviceset="CPOL-EU" device="E2-5" value="33/6.3"/>
 <part name="R238" library="TR808clone" deviceset="R-EU_" device="0207/7" value="1K"/>
-<part name="C75" library="TR808clone" deviceset="C-EU" device="4MM_PITCH" value="10n"/>
+<part name="C75" library="TR808clone" deviceset="C-EU" device="4MM_PITCH" value="18n"/>
 <part name="R223" library="TR808clone" deviceset="R-EU_" device="0207/7" value="22K"/>
-<part name="C74" library="TR808clone" deviceset="C-EU" device="050-024X044" value="27n"/>
+<part name="C74" library="TR808clone" deviceset="C-EU" device="050-024X044" value="47n"/>
 <part name="R221" library="TR808clone" deviceset="R-EU_" device="0207/7" value="4K7"/>
 <part name="V151" library="supply1" deviceset="GND" device=""/>
 <part name="V152" library="supply1" deviceset="GND" device=""/>
@@ -11249,7 +11249,7 @@ drill 1.0 mm</description>
 <part name="R216" library="TR808clone" deviceset="R-EU_" device="0207/7" value="15K"/>
 <part name="R218" library="TR808clone" deviceset="R-EU_" device="0207/7" value="2M2"/>
 <part name="D55" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="C72" library="TR808clone" deviceset="C-EU" device="050-024X044" value="33n"/>
+<part name="C72" library="TR808clone" deviceset="C-EU" device="050-024X044" value="39n"/>
 <part name="V155" library="supply1" deviceset="GND" device=""/>
 <part name="V156" library="supply1" deviceset="GND" device=""/>
 <part name="R224" library="TR808clone" deviceset="R-EU_" device="0207/7" value="1k5"/>
@@ -11296,7 +11296,7 @@ drill 1.0 mm</description>
 <sheets>
 <sheet>
 <plain>
-<text x="50.8" y="96.52" size="3.81" layer="94">HI TOM HI CONGA</text>
+<text x="50.8" y="96.52" size="3.81" layer="94">LO TOM LO CONGA</text>
 </plain>
 <instances>
 <instance part="R214" gate="G$1" x="10.16" y="35.56" rot="R90"/>
