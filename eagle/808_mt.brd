@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -18,8 +19,8 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -41,11 +42,11 @@
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -856,7 +857,10 @@ design rules under a new name.</description>
 <element name="C77" library="TR808clone" package="C050-024X044" value="22n" x="44.196" y="41.402" rot="R270"/>
 <element name="C78" library="TR808clone" package="C035-025X75" value="5n6" x="51.562" y="54.356" rot="R270"/>
 <element name="C81" library="TR808clone" package="C050-024X044" value="33n" x="65.532" y="27.94"/>
-<element name="C82" library="TR808clone" package="E2-5" value="33/6.3" x="76.962" y="15.24" rot="R270"/>
+<element name="C82" library="TR808clone" package="E2-5" value="33/6.3" x="76.962" y="15.24" smashed="yes" rot="R270">
+<attribute name="NAME" x="77.978" y="12.7" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="74.041" y="10.922" size="1.27" layer="27" ratio="10"/>
+</element>
 <element name="C83" library="TR808clone" package="C035-025X75" value="1n" x="68.072" y="11.43"/>
 <element name="D55" library="adafruit" package="DO-1N4148" value="" x="18.542" y="41.91" rot="R180"/>
 <element name="D56" library="adafruit" package="DO-1N4148" value="" x="38.354" y="58.674" rot="R270"/>
@@ -867,8 +871,14 @@ design rules under a new name.</description>
 <element name="OUTPUT" library="erthenvar" package="ERTHENVAR-JACK-90DEG" value="AUDIO-JACK" x="92.202" y="0" rot="R180"/>
 <element name="PINK_NOISE" library="erthenvar" package="ERTHENVAR-JACK-90DEG" value="AUDIO-JACK" x="17.272" y="0" rot="R180"/>
 <element name="PWR1" library="eurorack" package="POWER_16" value="POWER" x="23.622" y="57.15" rot="R180"/>
-<element name="Q1" library="transistor-npn" package="TO92" value="2N3904" x="24.892" y="24.13" rot="R90"/>
-<element name="Q2" library="transistor-pnp" package="TO92" value="2N3906" x="31.75" y="41.402" rot="R90"/>
+<element name="Q1" library="transistor-npn" package="TO92" value="2N3904" x="24.892" y="24.13" smashed="yes" rot="R90">
+<attribute name="NAME" x="24.257" y="27.305" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="28.702" y="28.067" size="1.27" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="Q2" library="transistor-pnp" package="TO92" value="2N3906" x="31.75" y="41.402" smashed="yes" rot="R90">
+<attribute name="NAME" x="31.115" y="44.577" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="40.513" y="43.18" size="1.27" layer="27" ratio="10" rot="R180"/>
+</element>
 <element name="Q3" library="transistor-npn" package="TO92" value="2N3904" x="5.842" y="40.64" rot="R90"/>
 <element name="R211" library="TR808clone" package="0207/7" value="22K" x="19.05" y="34.29" rot="R90"/>
 <element name="R212" library="TR808clone" package="0207/7" value="10K" x="19.812" y="24.13" rot="R90"/>
@@ -883,7 +893,10 @@ design rules under a new name.</description>
 <element name="R221" library="TR808clone" package="0207/7" value="4K7" x="13.462" y="49.53" rot="R180"/>
 <element name="R222" library="TR808clone" package="0207/7" value="22K" x="30.734" y="20.32" rot="R180"/>
 <element name="R223" library="TR808clone" package="0207/7" value="22K" x="31.242" y="31.75" rot="R90"/>
-<element name="R224" library="TR808clone" package="0207/7" value="1k5" x="67.564" y="41.148" rot="R90"/>
+<element name="R224" library="TR808clone" package="0207/7" value="1k5" x="67.564" y="41.148" smashed="yes" rot="R90">
+<attribute name="NAME" x="66.167" y="38.608" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="68.1228" y="38.862" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
 <element name="R225" library="TR808clone" package="0207/7" value="5k6" x="61.722" y="42.164" rot="R90"/>
 <element name="R226" library="TR808clone" package="0207/7" value="22K" x="43.942" y="55.118" rot="R180"/>
 <element name="R227" library="TR808clone" package="0207/7" value="33K" x="44.704" y="35.814"/>
@@ -900,16 +913,16 @@ design rules under a new name.</description>
 <element name="TUNE" library="pot" package="3RP/1610N" value="10k" x="28.702" y="3.81"/>
 <element name="SW8" library="808_lt" package="808_LT_MSS42_SW_SLIDE" value="808_LT_MSS42_SW_4PDT" x="49.784" y="1.27"/>
 <element name="PINK_NORM" library="con-molex" package="22-23-2021" value="22-23-2021" x="3.302" y="8.89" rot="R180">
-<attribute name="OC_NEWARK" value="25C3832" x="3.302" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="22-23-2021" x="3.302" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="MOLEX" x="3.302" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="22-23-2021" x="3.302" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1462926" x="3.302" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="25C3832" x="3.302" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="OUT_NORM" library="con-molex" package="22-23-2021" value="22-23-2021" x="89.662" y="25.4" rot="R180">
-<attribute name="OC_NEWARK" value="25C3832" x="89.662" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="22-23-2021" x="89.662" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="MOLEX" x="89.662" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="22-23-2021" x="89.662" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1462926" x="89.662" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="25C3832" x="89.662" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R1" library="TR808clone" package="0207/7" value="263R" x="22.86" y="8.89"/>
 <element name="R2" library="TR808clone" package="0207/7" value="263R" x="33.02" y="8.89" rot="R180"/>

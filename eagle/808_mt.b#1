@@ -850,12 +850,12 @@ design rules under a new name.</description>
 <element name="C71" library="TR808clone" package="C050-024X044" value="47n" x="11.684" y="25.4" rot="R180"/>
 <element name="C72" library="TR808clone" package="C050-024X044" value="33n" x="11.43" y="34.29" rot="R270"/>
 <element name="C73" library="TR808clone" package="C035-030X60" value="2n7" x="34.417" y="48.895" rot="R90"/>
-<element name="C74" library="TR808clone" package="C050-024X044" value="33n" x="27.432" y="31.75" rot="R270"/>
-<element name="C75" library="TR808clone" package="C035-030X60" value="15n" x="37.592" y="19.05" rot="R90"/>
+<element name="C74" library="TR808clone" package="C050-024X044" value="27n" x="27.432" y="31.75" rot="R270"/>
+<element name="C75" library="TR808clone" package="C035-030X60" value="10n" x="37.592" y="19.05" rot="R90"/>
 <element name="C76" library="TR808clone" package="C050-024X044" value="27n" x="56.388" y="53.848" rot="R90"/>
-<element name="C77" library="TR808clone" package="C050-024X044" value="27n" x="44.196" y="41.402" rot="R270"/>
-<element name="C78" library="TR808clone" package="C035-025X75" value="12n" x="51.562" y="54.356" rot="R270"/>
-<element name="C81" library="TR808clone" package="C050-024X044" value="39n" x="65.532" y="27.94"/>
+<element name="C77" library="TR808clone" package="C050-024X044" value="22n" x="44.196" y="41.402" rot="R270"/>
+<element name="C78" library="TR808clone" package="C035-025X75" value="5n6" x="51.562" y="54.356" rot="R270"/>
+<element name="C81" library="TR808clone" package="C050-024X044" value="33n" x="65.532" y="27.94"/>
 <element name="C82" library="TR808clone" package="E2-5" value="33/6.3" x="76.962" y="15.24" rot="R270"/>
 <element name="C83" library="TR808clone" package="C035-025X75" value="1n" x="68.072" y="11.43"/>
 <element name="D55" library="adafruit" package="DO-1N4148" value="" x="18.542" y="41.91" rot="R180"/>
@@ -883,8 +883,8 @@ design rules under a new name.</description>
 <element name="R221" library="TR808clone" package="0207/7" value="4K7" x="13.462" y="49.53" rot="R180"/>
 <element name="R222" library="TR808clone" package="0207/7" value="22K" x="30.734" y="20.32" rot="R180"/>
 <element name="R223" library="TR808clone" package="0207/7" value="22K" x="31.242" y="31.75" rot="R90"/>
-<element name="R224" library="TR808clone" package="0207/7" value="2k2" x="67.564" y="41.148" rot="R90"/>
-<element name="R225" library="TR808clone" package="0207/7" value="6k8" x="61.722" y="42.164" rot="R90"/>
+<element name="R224" library="TR808clone" package="0207/7" value="1k5" x="67.564" y="41.148" rot="R90"/>
+<element name="R225" library="TR808clone" package="0207/7" value="5k6" x="61.722" y="42.164" rot="R90"/>
 <element name="R226" library="TR808clone" package="0207/7" value="22K" x="43.942" y="55.118" rot="R180"/>
 <element name="R227" library="TR808clone" package="0207/7" value="33K" x="44.704" y="35.814"/>
 <element name="R228" library="TR808clone" package="0207/7" value="820K" x="53.086" y="49.53"/>
